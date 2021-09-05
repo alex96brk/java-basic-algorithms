@@ -1,5 +1,7 @@
 package utils;
 
+import java.util.Arrays;
+
 public abstract class BaseClass {
 
     /**
@@ -15,5 +17,9 @@ public abstract class BaseClass {
             System.out.println(String.format("\tarray[%d] = %d", i, incomingIntArray[i]));
         }
         System.out.println("[PRINT INT ARRAY]: Finished\n");
+    }
+
+    public static void arrayToString(int[] incomingIntArray) {
+        System.out.println(String.format("Array: %s \n", Arrays.toString(incomingIntArray)));
     }
 }

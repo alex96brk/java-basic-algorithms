@@ -11,14 +11,20 @@ public class BubbleSort extends BaseClass {
 
     public static void main(String[] args) {
         int[] array1 = {2, 5, 3, 7, 4, 8, 6, 9, 0, 2, 4, 3, 6, 4, 5, 7, 9, 8, 0, 5, 3, 5};
-        printIntArray(array1);
+        System.out.println("Before sort:");
+        arrayToString(array1);
+
         sortIntBubble_v1(array1);
-        printIntArray(array1);
+        System.out.println("After sort:");
+        arrayToString(array1);
 
         int[] array2 = {4, 3, 6, 4, 5, 7, 9, 8, 5, 3, 7, 4, 8, 6, 9, 0, 2, 0, 5, 3, 52 };
-        printIntArray(array2);
+        System.out.println("Before sort:");
+        arrayToString(array2);
+
         sortIntBubble_v2(array2);
-        printIntArray(array2);
+        System.out.println("After sort:");
+        arrayToString(array2);
     }
 
     public static void sortIntBubble_v1(int[] incomingIntArray) {
