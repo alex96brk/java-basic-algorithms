@@ -4,3 +4,4 @@
 *.class
 /target/
 src/main/java/training/
+src/main/java/training/Training.java
