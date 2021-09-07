@@ -6,7 +6,7 @@ import utils.BaseClass;
 public class BinarySearch extends BaseClass {
 
     /**
-     * In this class i had implemented linear search of
+     * In this class i had implemented binary search of
      * integer array value
      */
 
